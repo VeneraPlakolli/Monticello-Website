@@ -92,8 +92,8 @@
     width: 190px;
     height: 40px;
     text-decoration: none;
-    margin-top: 7%;
-    margin-bottom: 8%;
+    margin-top: 35px;
+    margin-bottom: 45px;
     border: 1px solid #2C4058;
     font-family: 'Montserrat';
     font-style: normal;
@@ -186,4 +186,107 @@
 .button--gallery a {
     margin-bottom: 0;
     margin-top: 20%;
+}
+
+.map-img {
+    background: url(../images/Map.png) no-repeat center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.map-form {
+    width: 750px;
+    height: 400px;
+    position: absolute;
+    bottom: -18%;
+    background-color: $color1;
+}
+.map-title {
+    width: 332px;
+    height: 80px;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+.map-title h1 {
+    margin-top: 20px;
+}
+.form-info {
+    width: 85%;
+    height: 196px;
+    margin-top: 50px;
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.form-info__info {
+    display: flex;
+    flex-direction: column;
+}
+.informations {
+    margin-bottom: 20px;
+    height: 35px;
+}
+.form-info-text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #000000;
+}
+.form-info-text {
+    display: flex;
+    align-items: center;
+}
+.form-info-text::before {
+    content: "";
+    background: url(../assets/location-icon.svg) no-repeat center;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.form-info__time {
+    height: 30px;
+}
+.form-info__name img {
+    width: 270px;
+    height: 2px;
+}
+.form-info__name h3 {
+    width: 127px;
+    height: 27px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+.form-info__email {
+    height: 41px;
+    margin-top: 32px;
+}
+.form-info__email img {
+    width: 270px;
+    height: 2px;
+    opacity: 0.3;
+}
+.email-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4B5562;
+    opacity: 0.5;
+}
+.button--form {
+    width: 120px;
+    margin-left: 55%;
+}
+.button--form a {
+    width: 100%;
 }

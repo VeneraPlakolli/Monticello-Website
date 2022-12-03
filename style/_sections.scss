@@ -1,0 +1,114 @@
+.hero {
+    width: 100%;
+    height: 650px;
+    margin-top: 70px;
+
+}
+.hero__title {
+    width: 30%;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero__title h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    height: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: $color2;
+}
+.hero-content {
+    width: 90%;
+    height: 520px;
+    margin-top: 2%;
+    display: flex;
+
+}
+.hero-content-image {
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+.hero-content-image__rectangle {
+    position: absolute;
+    width: 585px;
+    height: 470px;
+    left: 0px;
+    top: 0px;
+    background: #55B7FF;
+}
+.hero-content-image__image {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.hero-content-info {
+    width: 40%;
+    height: 60%;
+    margin-top: 15%;
+    margin-left: 2%;
+    color: $color2;
+}
+.hero-content-info__subtitle {
+    & h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    }
+}
+.hero-content-info__title{
+    & h1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 54px;
+    }
+    margin-bottom: 5%;
+}
+.hero-content-info__text {
+    & p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+.hero-content-info__button {
+    width: 190px;
+    height: 40px;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    border: 1px solid #2C4058;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+.hero-content-info__location {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    &:before {
+        content: "";
+        background: url(../assets/location-icon.svg) no-repeat center;
+        width: 20px;
+        height: 20px;
+        float: left;
+    }
+}

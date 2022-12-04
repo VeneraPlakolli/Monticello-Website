@@ -7,11 +7,22 @@
  * 	Default theme - Owl Carousel CSS File
  */
 .owl-theme .owl-nav {
-  display: none;   /* CHANGED */
-
   margin-top: 10px;
   text-align: center;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent; 
+}
+/*CHANGED-START */
+  .owl-theme1 .owl-nav{
+    display: none;
+  }
+  /*CHANGED-END */
+
+  /*CHANGED-START */
+  .owl-theme2 .owl-nav{
+    display: none;
+  }
+  /*CHANGED-END */
+
   .owl-theme .owl-nav [class*='owl-'] {
     color: #FFF;
     font-size: 14px;
@@ -34,21 +45,45 @@
 
 .owl-theme .owl-dots {
 
-   /* CHANGED - START */
-   position: absolute;
-   top: -20%;
-   right: -30%;
-   display: flex;
-   flex-direction: column;
-   /* CHANGED - END */
 
   text-align: center;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent; 
+}
+
+ /* CHANGED - START */
+.owl-theme1 .owl-dots {
+  position: absolute;
+  top: -20%;
+  right: -30%;
+  display: flex;
+  flex-direction: column;
+}
+/* CHANGED - END */
+
+ /* CHANGED - START */
+ .owl-theme2 .owl-dots {
+  position: absolute;
+  bottom: -10%;
+  left: 38%;
+}
+/* CHANGED - END */
+
+
   .owl-theme .owl-dots .owl-dot {
-    margin-top: 30px;  /* CHANGED */
     display: inline-block;
     zoom: 1;
-    *display: inline; }
+    *display: inline; 
+  }
+
+  .owl-theme2 .owl-dots .owl-dot {
+    margin: 10px;
+  }
+  
+  /* CHANGED - START */
+  .owl-theme1 .owl-dots .owl-dot{
+    margin-top: 30px;  
+  }
+  /* CHANGED-END */ 
     .owl-theme .owl-dots .owl-dot span {
       width: 10px;
       height: 10px;

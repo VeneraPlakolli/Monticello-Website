@@ -6,16 +6,23 @@
 /*
  *  Owl Carousel - Core
  */
+
+ 
 .owl-carousel {
   display: none;
-  /* width: 100%; */
-  width: 60%;       /* CHANGED */
-  height: 60%;      /* CHANGED */
+  width: 100%;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
   z-index: 1; 
 }
+/*CHANGES-START*/
+.owl-carousel1 {
+  width: 60%;       /* CHANGED */
+  height: 60%;      /* CHANGED */
+ }
+ /*CHANGES-END */
+
   .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
@@ -73,7 +80,9 @@
     padding: 0 !important;
     font: inherit; }
   .owl-carousel.owl-loaded {
-    display: block; }
+    display: block; 
+  } 
+
   .owl-carousel.owl-loading {
     opacity: 0;
     display: block; }

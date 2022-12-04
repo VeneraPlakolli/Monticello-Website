@@ -26,7 +26,7 @@
                     <a class="header-links__link" href="#">Contact</a>
                 </div>
                 <div class="header-logos-hamburger">
-                    <a href="#"><div class="hamburger">
+                    <a href="#"><div class="hamburger" onclick="toggleText()">
                         <span class="hamburger-span ham-span1"></span>
                         <span class="hamburger-span"></span>
                         <span class="hamburger-span"></span>
@@ -42,14 +42,20 @@
         </header>
 
         <div class="container">
-        
+        <main>
+            <div id="cover" class="cover">
+
+            </div>
 
         <div class="slider">
+            </div>
+        </main>
 
-        </div>
-    </div>
+        
 
-    </div>
+    </div> <!--CONTAINER-->
+
+    </div> <!--HEADER MAIN-->
 
     <section class="hero">
         <div class="container-hero">
@@ -166,5 +172,33 @@
         </div>
     </footer>
 
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        // $(function() {
+        //     // $(".cover").hide();
+        //      $(".hamburger").click(function() {
+        //         $(".cover").fadeIn();
+        //      });
+
+        //      $(".hambuger").click(function() {
+        //         $(".cover").fadeOut();
+        //      });
+        // });
+
+
+
+
+        // let text = document.getElementById('cover');
+
+        // function toggleText() {
+        //     if(text.style.display == 'none') {
+        //         text.style.display = 'block';
+        //     } else {
+        //         text.style.display = 'none';
+        //     }
+        // }
+    </script>
 </body>
 </html>

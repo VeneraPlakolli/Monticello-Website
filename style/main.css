@@ -127,7 +127,7 @@ nav {
 .hamburger {
   visibility: hidden;
   width: 35px;
-  height: 20px;
+  height: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,12 +135,9 @@ nav {
 }
 .hamburger .hamburger-span {
   width: 30px;
-  height: 2px;
+  height: 3px;
   background-color: black;
   margin-top: 5px;
-}
-.hamburger .ham-span1 {
-  margin-top: 0;
 }
 
 .header-logos {
@@ -385,6 +382,7 @@ main {
 
 .content-secondHero {
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -543,6 +541,8 @@ main {
 
 .item-info__img img {
   border-radius: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .item-info-text {
@@ -721,4 +721,146 @@ footer {
   line-height: 17px;
   color: #FFFFFF;
   margin-top: 38px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header__logo {
+    width: 25%;
+  }
+  .header__logo img {
+    width: 100%;
+  }
+  nav {
+    width: 93%;
+    margin-left: 4%;
+  }
+  .item h1 {
+    font-size: 39px;
+    line-height: 72px;
+  }
+  .item p {
+    font-size: 15px;
+  }
+  .hero__title {
+    width: 36%;
+    margin-left: 32%;
+    margin-bottom: 10%;
+  }
+  .hero__title h1 {
+    font-size: 35px;
+  }
+  .hero-content {
+    flex-direction: column;
+  }
+  .hero-content-image {
+    width: 100%;
+    height: 60%;
+  }
+  .hero-content-image__image,
+.hero-content-image__image--secondHero {
+    width: 70%;
+    height: 80%;
+  }
+  .hero-content-image__image img,
+.hero-content-image__image--secondHero img {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-content-secondHero {
+    left: 0;
+  }
+  .hero-content-info--secondHero {
+    margin-left: 2%;
+    margin-bottom: 5%;
+  }
+  .hero-content-image__rectangle,
+.hero-content-image__rectangle--secondHero {
+    width: 70%;
+    height: 80%;
+  }
+  .hero {
+    height: 864px;
+  }
+  .hero-content {
+    height: 713px;
+  }
+  .hero-content-info {
+    width: 90%;
+    height: 40%;
+    margin-top: 30px;
+  }
+  .hero-content-info__title {
+    margin-bottom: 3%;
+    margin-top: 2%;
+  }
+  .hero-content-info__title h1 {
+    font-size: 35px;
+  }
+  .button {
+    width: 150px;
+  }
+  .button a {
+    width: 100%;
+    margin-bottom: 18%;
+  }
+  .item-title {
+    font-size: 15px;
+  }
+  .item p {
+    font-size: 12px;
+  }
+  .item-text {
+    height: 110px;
+  }
+  .item-info-text {
+    margin-left: 10px;
+  }
+  .item-info-text h3 {
+    font-size: 11px;
+    margin-top: 5%;
+  }
+  .item-info-text p {
+    font-size: 10px;
+  }
+  .owl-theme2 .owl-dots {
+    left: 32%;
+  }
+  .owl-carousel2 .item {
+    height: 484px;
+  }
+  .gallery-images {
+    height: 100%;
+  }
+  .map-form {
+    width: 80%;
+    height: 50%;
+  }
+  .map-title {
+    width: 45%;
+    margin-left: 30%;
+    margin-bottom: 0;
+  }
+  .form-info {
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .form-info-text p {
+    font-size: 16px;
+  }
+  .button--form {
+    margin-left: 43%;
+  }
+  .footer-logo {
+    width: 32%;
+    height: 50%;
+    margin-left: 9%;
+  }
+  .footer-logo p {
+    margin-top: 10%;
+  }
+  .footer-logos {
+    margin-bottom: 6%;
+    margin-right: 9%;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -7,6 +7,8 @@
  * 	Default theme - Owl Carousel CSS File
  */
 .owl-theme .owl-nav {
+  display: none;   /* CHANGED */
+
   margin-top: 10px;
   text-align: center;
   -webkit-tap-highlight-color: transparent; }
@@ -31,9 +33,19 @@
   margin-top: 10px; }
 
 .owl-theme .owl-dots {
+
+   /* CHANGED - START */
+   position: absolute;
+   top: -20%;
+   right: -30%;
+   display: flex;
+   flex-direction: column;
+   /* CHANGED - END */
+
   text-align: center;
   -webkit-tap-highlight-color: transparent; }
   .owl-theme .owl-dots .owl-dot {
+    margin-top: 30px;  /* CHANGED */
     display: inline-block;
     zoom: 1;
     *display: inline; }

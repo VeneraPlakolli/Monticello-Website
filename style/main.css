@@ -668,7 +668,8 @@ main {
   opacity: 0.3;
 }
 
-.email-text {
+.email-text input {
+  border: 0;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;

@@ -390,13 +390,16 @@
     opacity: 0.3;
 }
 .email-text {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: #4B5562;
-    opacity: 0.5;
+    & input {
+        border: 0;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #4B5562;
+        opacity: 0.5;
+    }
 }
 .button--form {
     width: 120px;

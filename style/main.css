@@ -57,10 +57,6 @@ table {
   box-sizing: border-box;
 }
 
-* {
-  outline: solid 1px red;
-}
-
 .container {
   max-width: 1100px;
   width: 100%;
@@ -157,18 +153,50 @@ nav {
 
 .cover {
   width: 100%;
-  height: 300px;
-  background-color: green;
+  height: 350px;
+  background-color: blue;
   position: absolute;
   top: 0px;
   left: 0px;
   display: none;
+}
+.cover .header-links-hamburger {
+  flex-direction: column;
+  align-items: flex-start;
+  height: 80%;
+  margin-top: 10px;
+}
+.cover .header-links-hamburger .header-links__link {
+  margin-top: 10px;
+}
+.cover .header-links-hamburger :nth-child(4) {
+  margin-bottom: 10px;
 }
 
 main {
   width: 100%;
   position: relative;
   display: inline-block;
+}
+
+.cover-list a {
+  text-decoration: none;
+}
+.cover-list a h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.cover-logos {
+  flex-direction: column;
+  height: 45%;
+  width: 10%;
+  align-items: flex-start;
+  margin-top: 10px;
 }
 
 .container-hero {

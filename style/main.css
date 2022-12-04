@@ -375,6 +375,10 @@ main {
   float: left;
 }
 
+.secondHero {
+  margin-top: 0;
+}
+
 .hero-second {
   height: 100%;
 }
@@ -386,7 +390,7 @@ main {
 
 .hero-content-secondHero {
   position: absolute;
-  top: 0px;
+  top: 100px;
   right: 0px;
 }
 

@@ -128,6 +128,9 @@
     }
 }
 
+.secondHero {
+    margin-top: 0;
+}
 .hero-second {
     height: 100%;
 }
@@ -137,7 +140,7 @@
 }
 .hero-content-secondHero {
     position: absolute;
-    top: 0px;
+    top: 100px;
     right: 0px;
 }
 .hero-content-image__rectangle--secondHero {

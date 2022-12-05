@@ -961,8 +961,8 @@ footer {
     margin-top: 20px;
   }
   .hero__title {
-    width: 72%;
-    margin-left: 12%;
+    width: 55%;
+    margin-left: 20%;
   }
   .hero__title h1 {
     font-size: 30px;
@@ -1043,6 +1043,72 @@ footer {
 .hero-content-image__rectangle--secondHero {
     width: 70%;
     height: 70%;
+  }
+  .news {
+    height: 100%;
+  }
+  .news-slider {
+    height: 555px;
+  }
+  .news-title {
+    width: 56%;
+    margin-top: 7%;
+    margin-left: 21%;
+    margin-bottom: 10%;
+  }
+  .item-title {
+    height: 70px;
+    font-weight: 650;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 3%;
+    margin-top: 5%;
+  }
+  .item-text {
+    height: 100px;
+  }
+  .item-text {
+    padding: 3%;
+  }
+  .item-text p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .item-info {
+    width: 97%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+    margin-left: 0;
+    margin-top: 15%;
+  }
+  .item-info__img {
+    width: 60%;
+    height: 60%;
+  }
+  .item-info__img img {
+    width: 100%;
+    height: 100%;
+  }
+  .item-info-text {
+    width: 100%;
+    margin-left: 0;
+  }
+  .item-info-text h3 {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .item-info-text p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .owl-theme2 .owl-dots {
+    position: absolute;
+    bottom: -20%;
+    left: 15%;
+    width: 75%;
   }
   .gallery,
 .news {

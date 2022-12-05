@@ -105,6 +105,12 @@
     }
     .gallery-images {
         height: 100%;
+        grid-template-columns: 1fr;
+    }
+    .gallery-images__image1 {
+        & img {
+            height: 90%;
+        }
     }
 
     .map-form {

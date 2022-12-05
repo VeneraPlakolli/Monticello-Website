@@ -218,6 +218,10 @@ main {
 }
 
 .item p {
+  letter-spacing: 0px;
+}
+
+.item1 p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -481,12 +485,12 @@ main {
   width: 100%;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .new-slider_slider {
   width: 80%;
-  height: 69%;
+  height: 61%;
 }
 
 .news-arrow {
@@ -513,6 +517,7 @@ main {
   padding: 10px;
   padding-top: 0;
   height: 80px;
+  letter-spacing: 0px;
 }
 
 .item-text p {
@@ -522,18 +527,19 @@ main {
   font-size: 14px;
   line-height: 20px;
   text-align: left;
+  margin-top: 10px;
   color: #2C4058;
 }
 
 .owl-carousel2 .item {
   background-color: #FFFFFF;
-  height: 495px;
+  height: 440px;
+  padding-bottom: 20px;
 }
 
 .item-info {
   width: 90%;
   height: 60px;
-  margin-top: 40px;
   margin-left: 10px;
   display: flex;
   align-items: center;
@@ -548,6 +554,7 @@ main {
 .item-info-text {
   height: 100%;
   margin-left: 15px;
+  padding-top: 10px;
 }
 .item-info-text h3 {
   font-family: "Open Sans";
@@ -565,6 +572,7 @@ main {
   line-height: 17px;
   color: #55B7FF;
   text-align: left;
+  margin-top: 5px;
 }
 
 .map-img {
@@ -826,7 +834,7 @@ footer {
     left: 32%;
   }
   .owl-carousel2 .item {
-    height: 484px;
+    height: 100%;
   }
   .gallery-images {
     height: 100%;
@@ -862,5 +870,165 @@ footer {
   .footer-logos {
     margin-bottom: 6%;
     margin-right: 9%;
+  }
+}
+@media (max-width: 767px) {
+  .header-main {
+    height: 100%;
+  }
+  .header-links-visible,
+.header-logos-visible {
+    visibility: hidden;
+  }
+  .hamburger {
+    visibility: visible;
+  }
+  .header__logo img {
+    width: 180px;
+    height: 35px;
+  }
+  .header-logos-hamburger {
+    width: 30%;
+    margin-left: -36%;
+  }
+  .header-logos-hamburger a {
+    margin-left: 70%;
+  }
+  main {
+    margin-top: 0;
+  }
+  .item h1 {
+    font-size: 30px;
+    line-height: 46px;
+  }
+  .item p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .arrow {
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+  .owl-theme1 .owl-dots .owl-dot {
+    margin-top: 20px;
+  }
+  .hero__title {
+    width: 72%;
+    margin-left: 12%;
+  }
+  .hero__title h1 {
+    font-size: 30px;
+    height: 100%;
+  }
+  .hero-content {
+    flex-direction: column;
+  }
+  .hero-content-info {
+    width: 98%;
+    height: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .hero-content-image {
+    width: 100%;
+    height: 60%;
+  }
+  .hero-content-image__image,
+.hero-content-image__rectangle {
+    width: 70%;
+    height: 70%;
+  }
+  .hero-content-image__image img,
+.hero-content-image__rectangle img {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-content-info__subtitle h3 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .hero-content-info__title {
+    margin-bottom: 2%;
+  }
+  .hero-content-info__title h1 {
+    font-size: 27px;
+    line-height: 35px;
+  }
+  .hero-content-info__text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .button {
+    width: 140px;
+    height: 33px;
+  }
+  .button a {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .hero-content-info__location {
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .hero-content-image__image,
+.hero-content-image__image--secondHero {
+    width: 70%;
+    height: 70%;
+  }
+  .hero-content-image__image img,
+.hero-content-image__image--secondHero img {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-content-secondHero {
+    left: 0;
+  }
+  .hero-content-info--secondHero {
+    margin-left: 2%;
+    margin-bottom: 5%;
+  }
+  .hero-content-image__rectangle,
+.hero-content-image__rectangle--secondHero {
+    width: 70%;
+    height: 70%;
+  }
+  .gallery,
+.news {
+    margin-top: 20%;
+  }
+  .gallery {
+    margin-bottom: 20%;
+  }
+  .gallery-images {
+    height: 100%;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .gallery-images_images {
+    grid-template-columns: 1fr;
+  }
+  .button--gallery {
+    margin-left: 33%;
+  }
+  .map-form {
+    width: 100%;
+    height: 100%;
+  }
+  .form-info {
+    height: 100%;
+    margin-top: 0px;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .form-info__info {
+    height: 90%;
+  }
+  .form-info__form {
+    height: 95%;
   }
 }/*# sourceMappingURL=main.css.map */

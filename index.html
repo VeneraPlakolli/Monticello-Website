@@ -19,7 +19,7 @@
         <div class="container">
             <nav>
                 <div class="header__logo"><img src="./assets/monticello.svg" alt=""></div>
-                <div class="header-links">
+                <div class="header-links header-links-visible">
                     <a class="header-links__link" href="#">About us</a>
                     <a class="header-links__link" href="#">Projects</a>
                     <a class="header-links__link" href="#">News</a>
@@ -31,7 +31,7 @@
                         <span class="hamburger-span"></span>
                         <span class="hamburger-span"></span>
                     </div></a>
-                <div class="header-logos">
+                <div class="header-logos header-logos-visible">
                     <img src="./assets/fb-icon.svg" alt="" class="header__fb">
                     <img src="./assets/twitter-icon.svg" alt="" class="header__twitter">
                     <img src="./assets/instagram-icon.svg" alt="" class="header__insta">
@@ -62,35 +62,35 @@
 
         <!-- <div class="slider"> -->
         <div class="owl-carousel owl-carousel1 owl-theme owl-theme1">
-            <div class="item">
+            <div class="item item1">
                 <article>
                     <h1>SIMPLE & MODERN</h1>
                     <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
                 </article>
             </div>
 
-            <div class="item">
+            <div class="item item1">
                 <article>
                     <h1>HEADING 2</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quidem?</p>
                 </article>
             </div>
 
-            <div class="item">
+            <div class="item item1">
                 <article>
                     <h1>HEADING 3</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quidem?</p>
                 </article>
             </div>
 
-            <div class="item">
+            <div class="item item1">
                 <article>
                     <h1>HEADING 4</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quidem?</p>
                 </article>
             </div>
 
-            <div class="item">
+            <div class="item item1">
                 <article>
                     <h1>HEADING 5</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quidem?</p>
@@ -162,7 +162,7 @@
         </div>
 
         <div class="news-slider">
-            <div class="news-arrow"><a href="#"><img src="./assets/arrowleft.svg" alt=""></a></div>
+            <!-- <div class="news-arrow"><a href="#"><img src="./assets/arrowleft.svg" alt=""></a></div> -->
             <div class="new-slider_slider">
                 <!--SLIDER-START-->
                 <div class="owl-carousel owl-carousel2 owl-theme owl-theme2">
@@ -379,7 +379,7 @@
                 </div>
                 <!--SLIDER-END-->
             </div>
-            <div class="news-arrow"><a href="#"><img src="./assets/arrowright.svg" alt=""></a></div>
+            <!-- <div class="news-arrow"><a href="#"><img src="./assets/arrowright.svg" alt=""></a></div> -->
         </div>
        
         </div>
@@ -394,12 +394,12 @@
                 <h1>GALLERY</h1>
             </div>
             <div class="gallery-images">
-                <a class="gallery-images__image1" href=""><img src="./images/Image 1-gallery.png" alt=""></a>
+                <div class="gallery-images__image1"><img src="./images/Image 1-gallery.png" alt=""></div>
                 <div class="gallery-images_images">
-                    <a href=""><img src="./images/Image 2-gallery.png" alt=""></a> 
-                    <a href=""><img src="./images/Image 3-gallery.png" alt=""></a> 
-                    <a href=""><img src="./images/Image 4-gallery.png" alt=""></a> 
-                    <a href=""><img src="./images/Image 5-gallery.png" alt=""></a> 
+                    <img src="./images/Image 2-gallery.png" alt=""> <!-- <a href=""></a> -->
+                    <img src="./images/Image 3-gallery.png" alt=""> <!-- <a href=""></a> -->
+                    <img src="./images/Image 4-gallery.png" alt=""> <!-- <a href=""></a> -->
+                    <img src="./images/Image 5-gallery.png" alt=""> <!-- <a href=""></a> -->
                 </div>
             </div>
             <div class="button button--gallery"><a href="#">SEE MORE</a></div>
@@ -476,6 +476,15 @@
         $(".cover-list").click(function(){
             $(".header-links-hamburger").slideToggle();
         });
+
+
+        // $(function(){
+        //     $(".gallery-images img").click(function(e){
+        //         $(".gallery-images img").css({"width": "700px", "height": "auto"})
+        //         $(".gallery-images img").fadeIn();
+        //     });
+        // });
+
 
         $('.owl-carousel1').owlCarousel({
             loop:true,

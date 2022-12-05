@@ -70,18 +70,27 @@ main {
     letter-spacing: 0.1em;
     color: $color1;
 }
-
-.item p {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.3em;
-    text-align: center;
-    margin-top: 10px;
-    color: $color1;
+.item {
+    & p {
+        letter-spacing: 0px;
+    }
 }
+
+.item1 {
+    & p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        margin-top: 10px;
+        color: $color1;
+    }
+}
+
+
 .arrow {
     margin-top: 5%;
 }

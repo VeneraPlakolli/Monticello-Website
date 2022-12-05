@@ -227,11 +227,12 @@
     width: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    // justify-content: space-between;
+    justify-content: center;
 }
 .new-slider_slider {
     width: 80%;
-    height: 69%;
+    height: 61%;
 }
 .news-arrow {
     height: 69%;
@@ -242,6 +243,7 @@
     padding: 10px;
     margin-top: 15px;
 }
+
 .item-title {
     font-family: 'Open Sans';
     font-style: normal;
@@ -254,27 +256,36 @@
     padding: 10px;
     padding-top: 0;
     height: 80px;
+    letter-spacing: 0px;
 }
-.item-text p{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: left;
-    color: #2C4058;
+.item-text {
+    & p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        margin-top: 10px;
+        color: #2C4058;
+    }
 }
 .owl-carousel2 {
     & .item {
         background-color: $color1;
-        height: 495px;
+        // height: 100%;
+        height: 440px;
+        padding-bottom: 20px;
     }
 }
-
+// .item {
+//     & article {
+//         height: 100%;
+//     }
+// }
 .item-info {
     width: 90%;
     height: 60px;
-    margin-top: 40px;
     margin-left: 10px;
     display: flex;
     align-items: center;
@@ -287,6 +298,7 @@
 .item-info-text {
     height: 100%;
     margin-left: 15px;
+    padding-top: 10px;
     & h3 {
         font-family: 'Open Sans';
         font-style: normal;
@@ -303,8 +315,10 @@
         line-height: 17px;
         color: #55B7FF;
         text-align: left;
+        margin-top: 5px;
     }
 }
+
 
 .map-img {
     background: url(../images/Map.png) no-repeat center;

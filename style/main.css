@@ -914,17 +914,33 @@ footer {
   }
   .hamburger {
     visibility: visible;
+    position: absolute;
+    right: -12%;
+    top: 0;
+    height: 100%;
+  }
+  .cover {
+    height: 100%;
+  }
+  .header__logo {
+    margin-left: 5%;
   }
   .header__logo img {
-    width: 180px;
+    width: 160px;
     height: 35px;
   }
   .header-logos-hamburger {
-    width: 30%;
-    margin-left: -36%;
+    width: 27%;
+    position: absolute;
+    right: 9%;
   }
   .header-logos-hamburger a {
-    margin-left: 70%;
+    margin-left: 0;
+  }
+  nav {
+    justify-content: flex-start;
+    position: relative;
+    padding: 0;
   }
   main {
     margin-top: 0;
@@ -1047,20 +1063,74 @@ footer {
   .button--gallery {
     margin-left: 33%;
   }
-  .map-form {
-    width: 100%;
+  .map-img {
+    height: 700px;
+  }
+  .map-img .form-info {
     height: 100%;
   }
+  .map-form {
+    width: 100%;
+    height: 64%;
+  }
   .form-info {
-    height: 100%;
     margin-top: 0px;
     grid-template-columns: 1fr;
     gap: 0;
   }
-  .form-info__info {
-    height: 90%;
+  .form-info__info,
+.form-info__form {
+    height: 100%;
   }
-  .form-info__form {
-    height: 95%;
+  .map-title {
+    margin-top: 0;
+  }
+  .form-info-text p {
+    line-height: 19px;
+  }
+  .informations {
+    margin-bottom: 10px;
+    height: 25px;
+  }
+  .form-info__name h3 {
+    height: 24px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+  .form-info__email {
+    height: 55%;
+    margin-top: 3%;
+  }
+  .email-text input {
+    line-height: 20px;
+  }
+  .footer-container {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 0;
+  }
+  .footer-logo {
+    width: 50%;
+    height: 16%;
+    margin-left: 5%;
+  }
+  .footer-logo p {
+    font-size: 13px;
+    margin-top: 10%;
+  }
+  .footer-logos {
+    width: 32%;
+    height: 6%;
+    margin-bottom: 9%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .footer-logos img {
+    width: 100%;
+    height: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
